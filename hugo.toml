@@ -1,0 +1,4 @@
+baseURL = 'https://blog.havel.my.id/'
+languageCode = 'en-us'
+title = 'Coffee Chats'
+theme = 'blowfish'
