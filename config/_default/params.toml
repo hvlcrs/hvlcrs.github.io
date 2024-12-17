@@ -133,10 +133,9 @@ disableTextInHeader = false
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  websiteid = "32486169-0be7-45a2-95a3-4973170ac072"
-  # domain = "havel.my.id"
-  dataDomains = "havel.my.id"
-  enableTrackEvent = false
+  # websiteid = "ABC12345"
+  # domain = "llama.yoursite.com"
+  # dataDomains = "yoursite.com,yoursite2.com"
 
 [buymeacoffee]
   # identifier = ""
