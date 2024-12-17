@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "http://localhost/"
+baseURL = "https://havel.my.id/"
 defaultContentLanguage = "en"
 title = 'Coffee Chats'
 

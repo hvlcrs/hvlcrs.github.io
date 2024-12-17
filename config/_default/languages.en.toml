@@ -16,7 +16,7 @@ title = "Coffee Chats"
 [author]
   name = "Havel Cyrus"
   image = "img/avatar.png"
-  headline = "Coffee lovers and game developers"
+  headline = "Coffee lovers and tech enthusiast"
 #   bio = "A little bit about you"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
