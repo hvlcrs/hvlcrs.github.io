@@ -134,7 +134,7 @@ disableTextInHeader = false
 
 [umamiAnalytics]
   websiteid = "32486169-0be7-45a2-95a3-4973170ac072"
-  domain = "havel.my.id"
+  # domain = "havel.my.id"
   dataDomains = "havel.my.id"
   enableTrackEvent = false
 
