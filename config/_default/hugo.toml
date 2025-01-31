@@ -6,6 +6,7 @@ theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://havel.my.id/"
 defaultContentLanguage = "en"
 title = 'Coffee Chats'
+titleCaseStyle = 'none'
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
