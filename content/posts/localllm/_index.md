@@ -1,5 +1,6 @@
 ---
 title: "Local vs Cloud LLMs/RAG"
+description: "Comparison between local llm and cloud llm for development and general use cases"
 date: 2024-11-28
 tags: ["llm", "ai"]
 ---

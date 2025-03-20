@@ -1,5 +1,6 @@
 ---
 title: "Indonesia's Exciting EV Scene"
+description: "Experience using electric vehicles in Indonesia's growing EV ecosystem"
 date: 2025-01-20
 tags: ["ev"]
 ---
