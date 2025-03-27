@@ -20,19 +20,19 @@ It offers benefits like offline capability and more security, though it may be s
 
 My favorite app to run this is [Msty](https://msty.app/).
 It supports running local models on a CPU (if you have enough memory) and offers GPU acceleration. There are other popular options like LMStudio or llama.cpp, which offer more flexibility, but I prefer a nice UI, and Msty provides just that.
-![msty](./local_llm_0.png)
+![msty](./local-llm-vs-cloud-0.png)
 
 My setup is quite simple, I installed one of the most popular model from HuggingFace, Meta's `LLama 3.1 8B` for general use.
 I use `Qwen` for code related stuffs, and `Mixed Breed Embed Large` for RAGs.
 Those three models alrady covers almost all of my use case.
-![model](./local_llm_1.png)
+![model](./local-llm-vs-cloud-1.png)
 
 ## Use cases
 
 Aside from work, I often use my laptop to write blogs like this or do a bit of coding. My AI use cases also revolve around that. Brainstorming or doing general tasks is straightforward through the prompt UI.
 
 One feature I find super useful for more contextual results is the knowledge stack. It consumes the document we provide through the RAG plugin, tokenizes the content, and stores it in a vector database. This way, I can ask the agent for information from manuals/books without needing to read or search for keywords. Trust me, it saves hours!!
-![model](./local_llm_2.png)
+![model](./local-llm-vs-cloud-2.png)
 
 For code assistance, I use a VSCode extension called [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue). Even though it's rarely used, I find it quite helpful to analyze and review proprietary code without breaking any NDA since everything runs locally.
 
@@ -41,12 +41,12 @@ For code assistance, I use a VSCode extension called [Continue](https://marketpl
 ### Step 1: Install the Model
 
 First things first, let's get that model installed in Msty. It's super straightforward! Just download it from the `Local AI Models`. Personally, I love using two models for my coding needs: `codegemma:7B` for general code completion and `starcoder2:7b` for tab completion. After you've got those models, make sure your local server is up and running in the background—it usually runs on port 10000 by default.
-![codecompletion](./local_llm_3.png)
+![codecompletion](./local-llm-vs-cloud-3.png)
 
 ### Step 2: Install the VSCode Extension
 
 Next up, let's get the extension from the VSCode [marketplace](https://marketplace.visualstudio.com/items?itemName=Continue.continue). Once you've finished installing it, it's time to configure the remote target through the `config.json` file. You can find all the nitty-gritty details here:
-![codecompletion](./local_llm_4.png)
+![codecompletion](./local-llm-vs-cloud-4.png)
 Just access the file settings from the Continue chat tab context menu.
 
 ### Step 3: Fine-Tuning and Tweaks

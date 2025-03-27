@@ -32,11 +32,11 @@ That said, the ideal scenario is still to charge our vehicle at home. The Indone
 ### Looking for charging points?
 
 Regular folks looking for charging station mostly relies on the default on their smartphone, either Google Maps or Apple Maps, which to be fair, provides *not so bad* EV charging points data. However, since the data isn't up to date, it could be a problem if you are outside urban areas.
-![gmaps](./ev_in_sea_2.jpg)
+![gmaps](./ev-in-indonesia-0.jpg)
 [PLN's app](https://layanan.pln.co.id/pln-mobile) offer better discoverability, with the downside that it can't give you route planning. Other private charging companies also have their own app, like [Starvo](https://starvo.co.id/) or [Charge+](https://www.chargeplus.com/id).
-![pln](./ev_in_sea_0.jpg)
+![pln](./ev-in-indonesia-1.jpg)
 My personal choice is [ABRP](https://abetterrouteplanner.com/). It has route planning function, has an extensive database of EVs down to their specs for better prediction, as well as quite up to date data. The catch is that it relies mostly on open-source data from [openchargemap](https://map.openchargemap.io/) so community support is crucial (*please contribute, I need your help*).
-![abrp](./ev_in_sea_1.jpg)
+![abrp](./ev-in-indonesia-2.jpg)
 Similar apps like [PlugShare](https://www.plugshare.com/) also have their own fans, with more and more user sharing their data to the community. A combination of this apps and Google Maps, helped me to drive from Jakarta to Yogyakarta without a hassle.
 
 ## Affordability and costs of usage
@@ -46,7 +46,7 @@ Similar apps like [PlugShare](https://www.plugshare.com/) also have their own fa
 Indonesia offers a relatively affordable market for electric vehicles. While the prices can't quite match those in mainland China, the cheapest EVs in Indonesia are comparable to similar internal combustion engine (ICE) cars.
 Take Cherry's [Omoda EV](https://www.oto.com/mobil-baru/chery/omoda-e5/pure) for example—it can be bought for roughly IDR 400 million, the same price with Honda's popular ICE car, [HRV](https://www.oto.com/mobil-baru/honda/hr-v/1-5l-e-cvt).
 With government subsidies, the yearly tax for EVs is only a fraction of that for regular ICE cars. Using the same car as an example, the yearly tax for the Omoda EV is only about IDR 150k, while the HR-V can cost up to IDR 5 million—33 times more expensive!
-![tax](./ev_in_sea_3.jpg)
+![tax](./ev-in-indonesia-3.jpg)
 In Indonesia, there's an additional perk—cars are treated as luxury goods and taxed more heavily. The luxury tax can amount to 20-30% of the car's value, but for EVs, it's 0%. So, if you're looking outside the econobox category, EVs can be more economical than ICE cars in the same class.
 
 ### Runing costs: Gasoline vs Electricity
