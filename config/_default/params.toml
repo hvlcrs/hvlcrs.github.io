@@ -42,10 +42,20 @@ disableTextInHeader = false
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/posts/"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
+
+[author]
+  name = "Havel Cyrus"
+  image = "img/avatar.png"
+  headline = "Coffee lovers and tech enthusiast"
+  links = [
+    { github = "https://github.com/hvlcrs" },
+    { hashnode = "https://hvlcrs.hashnode.dev" },
+    { linkedin = "https://linkedin.com/in/havel-cyrus-2432b753" },
+  ]
 
 [article]
   showDate = true
