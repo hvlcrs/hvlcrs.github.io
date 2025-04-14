@@ -4,7 +4,7 @@ date: 2025-02-18
 tags: ["management", "software-engineering"]
 ---
 
-Stepping into management is a bit like being point guard in an team where you've always been the *three*. Suddenly, instead of producing dazzling solo drive, layups, and jump shoots, you're managing the tempo, ensuring every section plays harmoniously, and making those cut through pass. It's a wild, sometimes chaotic adventure but one that has taught me invaluable lessons.
+Stepping into management is a bit like being point guard in a team where you've always been the *three*. Suddenly, instead of producing dazzling solo drive, layups, and jump shots, you're managing the tempo, ensuring every section plays harmoniously, and making those cut through pass. It's a wild, sometimes chaotic adventure but one that has taught me invaluable lessons.
 
 ## What differs from IC to Manager?
 
