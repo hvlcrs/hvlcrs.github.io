@@ -23,7 +23,7 @@ It supports running local models on a CPU (if you have enough memory) and offers
 ![msty](./local-llm-vs-cloud-0.png)
 
 My setup is quite simple, I installed one of the most popular model from HuggingFace, Meta's `LLama 3.1 8B` for general use.
-I use `Qwen` for code related stuffs, and `Mixed Breed Embed Large` for RAGs.
+I use `Codegemma` for code related stuffs, and `Mixed Breed Embed Large` for RAGs.
 Those three models alrady covers almost all of my use case.
 ![model](./local-llm-vs-cloud-1.png)
 
