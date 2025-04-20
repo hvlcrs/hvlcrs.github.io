@@ -38,18 +38,18 @@ For code assistance, I use a VSCode extension called [Continue](https://marketpl
 
 ## Continue integration with Visual Studio Code
 
-### Step 1: Install the Model
+### Step 1: Install the model
 
 First things first, let's get that model installed in Msty. It's super straightforward! Just download it from the `Local AI Models`. Personally, I love using two models for my coding needs: `codegemma:7B` for general code completion and `starcoder2:7b` for tab completion. After you've got those models, make sure your local server is up and running in the background—it usually runs on port 10000 by default.
 ![codecompletion](./local-llm-vs-cloud-3.png)
 
-### Step 2: Install the VSCode Extension
+### Step 2: Install the VSCode extension
 
 Next up, let's get the extension from the VSCode [marketplace](https://marketplace.visualstudio.com/items?itemName=Continue.continue). Once you've finished installing it, it's time to configure the remote target through the `config.json` file. You can find all the nitty-gritty details here:
 ![codecompletion](./local-llm-vs-cloud-4.png)
 Just access the file settings from the Continue chat tab context menu.
 
-### Step 3: Fine-Tuning and Tweaks
+### Step 3: Fine-tuning and tweaks
 
 Want to make some tweaks and adjustments? You can read all about the settings and configurations directly from the Continue [docs](https://docs.continue.dev/customize/model-providers/more/msty). Happy customizing!
 
