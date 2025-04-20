@@ -1,6 +1,6 @@
 ---
 title: "The Trap of Being a Manager"
-desccripttion: "Management Challenges: The Hidden Pitfalls"
+description: "Management Challenges: The Hidden Pitfalls"
 date: 2025-02-18
 tags: ["management", "software-engineering"]
 ---
