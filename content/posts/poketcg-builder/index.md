@@ -10,7 +10,7 @@ series_order: 1
 Pokémon has always been a huge part of my life! Every time a new game drops, you can bet it’s a day-one purchase for me. The Trading Card Game (TCG), however, has been a different story. Initially, I collected Pokémon cards just for fun—no competitive play, just pure joy. But my collection came to an abrupt halt when my parents banned me from collecting them (tragic, right?).
 Fast forward to a year ago, when I took my daughter to a Pokémon Festival—and that’s when the magic reignited! My little daughter asked for some cool sets and BOOM, I found myself diving back into the world of Pokémon TCG, both collecting and playing. What amazed me was how little had changed in the game itself. Sure, the competitive meta evolves due to power creep, and cards cycle out every year, but the core mechanics remain familiar.
 
-## Application architeture
+## Application architecture
 
 Last weekend, I had some free time and thought, "How can I make deck building easier?" Abruptly, I turned to the internet. But all I found were meta deck explanations and prebuilt tactical deck guides, great for competitive players, but not much help if you want to build a deck around a non meta Pokémon.
 Sure, I could ask the community for advice, but that takes time. That’s when I had a lightbulb moment, why not use AI to solve this problem?
@@ -36,8 +36,8 @@ For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It aut
 ## Embedding and storing the data
 
 Since I wanted this tool to be accessible online, I initially leaned toward managed services. Carrying my laptop to casual TCG battles? Not cool.
-My database of choice is Milvus. There are other capable vector databases like chroma, qdrant, or even supabase. However, Ziliz, the managed Milvus service, is the most generous with it's free offerings. That is the deciding factor.
-I started with OpenAI for embedding, but reality hit fast, no free trial! That led me to explore alternatives like Gemini, Nomic, and others, but each had limitations for text embeddings. Given the large amount of scraped data, I decided to go local instead. Enter Ollama!
+My database of choice is `Milvus`. There are other capable vector databases like chroma, qdrant, or even supabase. However, Ziliz, the managed Milvus service, is the most generous with it's free offerings. That is the deciding factor.
+I started with OpenAI for embedding, but reality hit fast, no free trial! That led me to explore alternatives like Gemini, Nomic, and others, but each had limitations for text embeddings. Given the large amount of scraped data, I decided to go local instead. Enter `Ollama`!
 Both Ollama and the embedding model can be easily installed with following commands:
 
 ```bash
