@@ -4,6 +4,7 @@ description: "AI Pokemon TCG deck builder"
 date: 2025-05-11
 tags: ["software-engineering", "llm", "ai"]
 series: ["Building AI Powered Pokemon TCG Deck Builder"]
+series_order: 1
 ---
 
 Pokémon has always been a huge part of my life! Every time a new game drops, you can bet it’s a day-one purchase for me. The Trading Card Game (TCG), however, has been a different story. Initially, I collected Pokémon cards just for fun—no competitive play, just pure joy. But my collection came to an abrupt halt when my parents banned me from collecting them (tragic, right?).
