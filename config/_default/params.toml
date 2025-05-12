@@ -55,6 +55,7 @@ smartTOCHideUnfocusedChildren = true
     { github = "https://github.com/hvlcrs" },
     { hashnode = "https://hvlcrs.hashnode.dev" },
     { linkedin = "https://linkedin.com/in/havel-cyrus-2432b753" },
+    { ko-fi = "https://ko-fi.com/hvlcrs" },
   ]
 
 [article]
@@ -153,6 +154,9 @@ smartTOCHideUnfocusedChildren = true
   # globalWidgetMessage = "Hello"
   # globalWidgetColor = "#FFDD00"
   # globalWidgetPosition = "Right"
+
+[kofi]
+  globalWidget = true
 
 [verification]
   # google = ""
