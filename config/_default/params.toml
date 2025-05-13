@@ -158,6 +158,9 @@ smartTOCHideUnfocusedChildren = true
 [kofi]
   globalWidget = true
 
+[brevo]
+  newsletter = true
+
 [verification]
   # google = ""
   # bing = ""
