@@ -31,7 +31,7 @@ Inside MailerLite, go to "Campaigns" and create a new campaign. Fill in the deta
 
 ## Add the Signup Form to Hugo
 
-Thankfully, Hugo allows advanced customization where we can override templates partially. Let’s create a new partial for our newsletter form:
+Thankfully, Hugo allows [advanced customization](https://gohugo.io/hugo-modules/theme-components/) where we can override templates partially. Let’s create a new partial for our newsletter form:
 
 - Create a new directory `layout/partials`
 - Create a new file `newsletter.html`
