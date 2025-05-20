@@ -132,7 +132,7 @@
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}  
 
-        {{ if .Site.Params.brevo.newsletter | default false }}
+        {{ if .Site.Params.mailerlite.newsletter | default false }}
             {{ partial "newsletter.html" . }}
         {{ end }}
       </div>

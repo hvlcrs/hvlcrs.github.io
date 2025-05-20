@@ -158,7 +158,7 @@ smartTOCHideUnfocusedChildren = true
 [kofi]
   globalWidget = true
 
-[brevo]
+[mailerlite]
   newsletter = true
 
 [verification]
