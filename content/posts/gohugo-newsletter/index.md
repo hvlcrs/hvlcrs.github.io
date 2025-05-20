@@ -23,7 +23,6 @@ The next step is to build newsletter signup form. Modern email platforms like Ma
 ![form](./gohugo-newsletter-1.png)
 
 When you’re happy with the design, copy the generated CSS and HTML code, we’ll need it later for the blog.
-htmlembed
 ![htmlembed](./gohugo-newsletter-2.png)
 
 Inside MailerLite, go to "Campaigns" and create a new campaign. Fill in the details and ensure the RSS URL points to your Hugo-generated feed. By default, Hugo places it in the root directory, like `https://havel.my.id/index.xml`
