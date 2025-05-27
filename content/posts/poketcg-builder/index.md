@@ -23,14 +23,14 @@ I envisioned a simple system:
 - An MCP server to expose this data to AI agents
 
 So, I started with something like this:
-![architecture](./poketcg-builder-0.png)
+![architecture](./poketcg-builder-0.webp)
 
 **TLDR; If you don't want to read the rest of the article and simply want to look at the code, it can be accessed [here](https://github.com/hvlcrs/pokebuilder). Else, let's go on!!**
 
 ## Scraping the cards
 
 The first step was scraping card data. Since I play using the regional Indonesia cards, big websites like [Serebii](https://serebii.net) weren’t an option—some card names differ. That left me with the official Pokémon site, which thankfully provides all the necessary details. With that sorted, I could begin extracting the data!
-![card-details](./poketcg-builder-1.png)
+![card-details](./poketcg-builder-1.webp)
 For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It automatically chunks website sections, making it easier for AI tools to process the data—huge time-saver! Once the data was scraped, the next step was storing it in a vector database.
 
 ## Embedding and storing the data
@@ -84,7 +84,7 @@ Creating these collections programmatically was straightforward:
 ```
 
 After the code executed, the initiated collections can be seen from Ziliz's dashboard
-![ziliz-collections](./poketcg-builder-2.png)
+![ziliz-collections](./poketcg-builder-2.webp)
 Each collection has auto-indexing (because, let’s be honest, I’m lazy 😆), and I use the `COSINE` metric for data relativity. The key takeaway here is that the vector dimension must match the embedding system. If I ever switch to OpenAI, I’ll need to update the schema accordingly.
 Embedding the data using Ollama is ridiculously simple, it’s just one line of code:
 
@@ -161,7 +161,7 @@ To check if everything is working, simply run:
 ```
 
 Once the inspector tool is running, you can access it at `http://localhost:6274/#tools`
-![mcp-inspector](./poketcg-builder-3.png)
+![mcp-inspector](./poketcg-builder-3.webp)
 Using this tool, we can test the MCP server tools and prompts. Just make sure that the transport type is set to SSE and that it points to the correct URL.
 
 ## Setting up the UI
@@ -182,14 +182,14 @@ For now, I’m keeping things simple, so Gemini it is!
 ### Setting up Gemini with OpenWebUI
 
 First, we need to get the Gemini API key to integrate it with OpenWebUI.
-![gemini-api](./poketcg-builder-4.png)
+![gemini-api](./poketcg-builder-4.webp)
 Then, configure the UI to list Gemini as its backend:
 
 - Access the settings and go to Connections
 - Add Gemini backend URL `https://generativelanguage.googleapis.com/v1beta`
 - Add the token
 - Manually add the model ID, for example `gemini-2.0-flash`
-![openweb-ui-gemini](./poketcg-builder-5.png)
+![openweb-ui-gemini](./poketcg-builder-5.webp)
 
 ### Connecting OpenWebUI to the MCP
 
@@ -197,11 +197,11 @@ Now, let’s connect the UI to our MCP server:
 
 - Access the settings and go to Tools
 - Input the mcpo running proxy URL as the target, by default it is `http://localhost:8000/openapi.json`
-![openweb-ui-mcp](./poketcg-builder-6.png)
+![openweb-ui-mcp](./poketcg-builder-6.webp)
 
 ## Time to build our deck
 
 With everything set up, we can finally start building our Pokémon TCG deck!
-![openweb-ui-query](./poketcg-builder-7.png)
+![openweb-ui-query](./poketcg-builder-7.webp)
 For now, the results feel a bit sketchy, but tweaking the parameters should help refine things. Interestingly, running the prompt directly as a RAG application instead of through MCP yields better results with the current setup, something that still puzzles me.
 That’s my homework for now! The next step? Deploying this in the cloud—but that’s a project for another weekend. 😆

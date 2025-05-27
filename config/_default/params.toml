@@ -49,7 +49,7 @@ smartTOCHideUnfocusedChildren = true
 
 [author]
   name = "Havel Cyrus"
-  image = "img/avatar.png"
+  image = "img/avatar.webp"
   headline = "Coffee lovers and tech enthusiast"
   links = [
     { github = "https://github.com/hvlcrs" },
