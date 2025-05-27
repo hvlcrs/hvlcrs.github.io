@@ -1,0 +1,4 @@
+# Ignore public and resources directories
+
+public/*
+resources/*
