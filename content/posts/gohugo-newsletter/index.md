@@ -41,7 +41,7 @@ Since I wanted the newsletter form to appear in every blog post, I edited single
 - Create a new directory: `layout/_default` (if it doesn’t exist)
 - Create a new file `single.html`
 - Copy the contents of your theme’s `single.html` file into the new one
-![dirstructure](./gohugo-newsletter-4.png)
+![dirstructure](./gohugo-newsletter-4.webp)
 
 Now, let’s add a global parameter in config to activate the newsletter feature
 
