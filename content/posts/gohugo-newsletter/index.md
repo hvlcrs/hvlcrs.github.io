@@ -1,6 +1,6 @@
 ---
 title: "Newsletter for this Blog"
-description: "Integrating MailerLite with Hugo"
+description: "Streamline Hugo newsletter by integrating MailerLite. Follow our step by step guide for efficient setup that boosts online engagement."
 date: 2025-05-20
 tags: ["blog"]
 ---

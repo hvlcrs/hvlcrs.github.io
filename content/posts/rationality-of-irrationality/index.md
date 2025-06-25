@@ -1,6 +1,6 @@
 ---
 title: "Rationality of Irrationality"
-description: "Dive in to the logic behind seemingly irrational behaviors"
+description: "Explore the logic behind seemingly irrational behaviors. Uncover the paradox of human behavior and discover why illogical actions sometimes make sense."
 date: 2025-04-20
 tags: ["philosophy"]
 ---

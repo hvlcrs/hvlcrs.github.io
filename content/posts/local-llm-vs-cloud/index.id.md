@@ -1,6 +1,6 @@
 ---
 title: "Local vs Cloud LLMs/RAG"
-description: "Perbandingan antara local llm dan cloud llm untuk pengembangan software dan pengunaan sehari-hari"
+description: "Analisis perbandingan antara local dan cloud LLM serta solusi RAG. Temukan kegunaan, tantangan, dan saran untuk penggunaan AI secara efektif."
 date: 2024-11-28
 tags: ["llm", "ai"]
 ---

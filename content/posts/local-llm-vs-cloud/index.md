@@ -1,6 +1,6 @@
 ---
 title: "Local vs Cloud LLMs/RAG"
-description: "Comparison between local llm and cloud llm for development and general use cases"
+description: "Compare local and cloud based LLMs and RAG solutions in our analysis. Discover the benefits, challenges, and best practices to power your AI strategy."
 date: 2024-11-28
 tags: ["llm", "ai"]
 ---

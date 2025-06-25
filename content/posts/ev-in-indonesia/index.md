@@ -1,6 +1,6 @@
 ---
 title: "Indonesia's Exciting EV Scene"
-description: "Experience using electric vehicles in Indonesia's growing EV ecosystem"
+description: "Dive into Indonesia’s booming EV market. Learn about innovative tech, emerging trends, and what’s fueling the country's electric vehicle revolution."
 date: 2025-01-20
 tags: ["ev"]
 ---

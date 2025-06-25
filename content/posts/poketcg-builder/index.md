@@ -1,6 +1,6 @@
 ---
 title: "Building an AI Assisted Pokemon TCG Deck Builder"
-description: "AI Pokemon TCG deck builder"
+description: "Guide on building an AI powered Pokemon TCG deck builder. Discover how AI can refine deck strategy and enhance performance."
 date: 2025-05-11
 tags: ["software-engineering", "llm", "ai"]
 series: ["Building AI Powered Pokemon TCG Deck Builder"]
@@ -25,7 +25,7 @@ I envisioned a simple system:
 So, I started with something like this:
 ![architecture](./poketcg-builder-0.webp)
 
-**TLDR; If you don't want to read the rest of the article and simply want to look at the code, it can be accessed [here](https://github.com/hvlcrs/pokebuilder). Else, let's go on!!**
+**TLDR; If you don't want to read the rest of the article and simply want to look at the code, it can be accessed [at the repository](https://github.com/hvlcrs/pokebuilder). Else, let's go on!!**
 
 ## Scraping the cards
 
