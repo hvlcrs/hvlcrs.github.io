@@ -31,7 +31,7 @@ So, I started with something like this:
 
 The first step was scraping card data. Since I play using the regional Indonesia cards, big websites like [Serebii](https://serebii.net) weren’t an option—some card names differ. That left me with the official Pokémon site, which thankfully provides all the necessary details. With that sorted, I could begin extracting the data!
 ![card-details](./poketcg-builder-1.webp)
-For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It automatically chunks website sections, making it easier for AI tools to process the data—huge time-saver! Once the data was scraped, the next step was storing it in a vector database.
+For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It automatically chunks website sections, making it easier for AI tools to process the data, huge time saver! Once the data was scraped, the next step was storing it in a vector database.
 
 ## Embedding and storing the data
 
@@ -108,7 +108,7 @@ With everything now standardized, at least in the Python world, spinning up an M
 
 And just like that, the MCP server is live! 🎉
 Now that the server is up and running, the next step is to build a RAG system to fetch relevant data from the database. This will be exposed as an MCP tool, allowing an AI agent to use it for deck building assistance.
-For this initial version, the regulations are static, but in the future, I might add features to help build competitive tournament decks—that’s a project for another day!
+For this initial version, the regulations are static, but in the future, I might add features to help build competitive tournament decks, that’s a project for another day!
 When it comes to selecting relevant cards, the idea is simple:
 
 - The user prompt is passed as a query to the database.
@@ -153,7 +153,7 @@ Now, it’s time to generate the user prompt! This prompt structure ensures the 
     """
 ```
 
-Now that everything is set up, it’s time for the testing, whether the MCP server is running correctly! Thankfully, FastMCP comes with a built-in MCP inspector tool, making debugging super easy.
+Now that everything is set up, it’s time for the testing, whether the MCP server is running correctly. Thankfully, FastMCP comes with a built in MCP inspector tool, making debugging super easy.
 To check if everything is working, simply run:
 
 ```bash
@@ -166,10 +166,10 @@ Using this tool, we can test the MCP server tools and prompts. Just make sure th
 
 ## Setting up the UI
 
-Since I plan to deploy this application online, I need a web-based UI. That led me to [openwebui](https://github.com/open-webui/open-webui), a fantastic web-based interface that can run anywhere!
+Since I plan to deploy this application online, I need a web based UI. That led me to [openwebui](https://github.com/open-webui/open-webui), a fantastic web based interface that can run anywhere!
 The good news? It’s super flexible!
 The bad news? It doesn’t support SSE based MCP servers natively.
-But don’t worry, this is easily fixable! All we need is a proxy in front of our MCP server. For this, I used an openwebui extension called [mcpo](https://github.com/open-webui/mcpo), which can be installed globally using `pipx`.
+But don’t worry, this is easily fixable. All we need is a proxy in front of our MCP server. For this, I used an openwebui extension called [mcpo](https://github.com/open-webui/mcpo), which can be installed globally using `pipx`.
 To run the mcpo server and target our MCP, simply use:
 
 ```bash
@@ -203,5 +203,6 @@ Now, let’s connect the UI to our MCP server:
 
 With everything set up, we can finally start building our Pokémon TCG deck!
 ![openweb-ui-query](./poketcg-builder-7.webp)
+
 For now, the results feel a bit sketchy, but tweaking the parameters should help refine things. Interestingly, running the prompt directly as a RAG application instead of through MCP yields better results with the current setup, something that still puzzles me.
 That’s my homework for now! The next step? Deploying this in the cloud—but that’s a project for another weekend. 😆
