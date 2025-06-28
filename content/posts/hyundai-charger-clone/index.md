@@ -32,7 +32,7 @@ Analyzing the data, I realized it only used 11 pages (each with 4 bytes). Then I
 Copy just the good stuff.
 ![carddata-cloned](./hyundai-charger-clone-3.webp)
 
-Notice the difference in between the two data. Each new card now boasts its own `NTAG` and have different identifier data in the first 3 pages but the all important page 8 matches the original. I'm banking on the chance that the EV charger device won't perform two ways encryption. If this experiment fail, then it's going to be more complicated since I need to figure out the encryption method and other hard stuffs, but let's see, maybe the lady luck is on my side.
+Notice the difference in between the two data? Each new card now boasts its own `NTAG` and have different identifier data in the first 3 pages but the all important page 8 matches the original. I'm banking on the chance that the EV charger device won't perform two ways encryption. If this experiment fail, then it's going to be more complicated since I need to figure out the encryption method and other hard stuffs, but let's see, maybe the lady luck is on my side.
 
 ## Moment of Truth
 
