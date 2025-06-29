@@ -2,7 +2,7 @@
 title: "Newsletter for this Blog"
 description: "Streamline Hugo newsletter by integrating Mailchimp. Follow our step by step guide for efficient setup that boosts online engagement."
 date: 2025-05-20
-tags: ["blog"]
+tags: ["blog", "dev"]
 ---
 
 When I rekindled my blog last year, my main focus was clear, keep it simple and concentrate on writing. I explored several platforms like Medium and dev.to, but ultimately landed on the GitHub + Hugo combo for the beauty of content ownership.

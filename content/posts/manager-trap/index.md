@@ -2,7 +2,7 @@
 title: "The Trap of Being a Manager"
 description: "Delve into the challenges of leadership and the hidden pitfalls of management. Gain insights and practical tips to avoid common managerial traps and thrive."
 date: 2025-02-18
-tags: ["management", "software-engineering"]
+tags: ["management", "dev"]
 ---
 
 Stepping into management is a bit like being point guard in a team where you've always been the *three*. Suddenly, instead of producing dazzling solo drive, layups, and jump shots, you're managing the tempo, ensuring every section plays harmoniously, and making those cut through pass. It's a wild, sometimes chaotic adventure but one that has taught me invaluable lessons.
