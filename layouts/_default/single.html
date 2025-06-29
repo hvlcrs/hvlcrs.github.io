@@ -132,8 +132,8 @@
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}  
 
-        {{ if .Site.Params.mailerlite.newsletter | default false }}
-            {{ partial "newsletter.html" . }}
+        {{ if .Site.Params.mailchimp.newsletter | default false }}
+            {{ partial "mailchimp.html" . }}
         {{ end }}
       </div>
      
