@@ -2,7 +2,7 @@
 title: "Rationality of Irrationality"
 description: "Explore the logic behind seemingly irrational behaviors. Uncover the paradox of human behavior and discover why illogical actions sometimes make sense."
 date: 2025-04-20
-tags: ["philosophy"]
+tags: ["thought"]
 ---
 
 Have you ever done something that felt completely off or even downright silly in the moment, only to realize later that it was exactly what you needed? I recently experienced that exact twist of fate moment, and it lit a spark in me to write this post.
