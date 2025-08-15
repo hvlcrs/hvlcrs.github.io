@@ -8,6 +8,7 @@ series_order: 1
 ---
 
 Pokémon has always been a huge part of my life! Every time a new game drops, you can bet it’s a day-one purchase for me. The Trading Card Game (TCG), however, has been a different story. Initially, I collected Pokémon cards just for fun—no competitive play, just pure joy. But my collection came to an abrupt halt when my parents banned me from collecting them (tragic, right?).
+
 Fast forward to a year ago, when I took my daughter to a Pokémon Festival—and that’s when the magic reignited! My little daughter asked for some cool sets and BOOM, I found myself diving back into the world of Pokémon TCG, both collecting and playing. What amazed me was how little had changed in the game itself. Sure, the competitive meta evolves due to power creep, and cards cycle out every year, but the core mechanics remain familiar.
 
 ## Application architecture
@@ -107,6 +108,7 @@ With everything now standardized, at least in the Python world, spinning up an M
 ```
 
 And just like that, the MCP server is live! 🎉
+
 Now that the server is up and running, the next step is to build a RAG system to fetch relevant data from the database. This will be exposed as an MCP tool, allowing an AI agent to use it for deck building assistance.
 For this initial version, the regulations are static, but in the future, I might add features to help build competitive tournament decks, that’s a project for another day!
 When it comes to selecting relevant cards, the idea is simple:

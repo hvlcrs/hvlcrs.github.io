@@ -11,6 +11,7 @@ Fast forward a few months, and after chatting with friends, I realized one big i
 ## Hugo + Mailchimp = Newsletter Match
 
 Since Hugo generates static pages (which is great for speed and simplicity!), I didn’t want to complicate things with a database for tracking users. But, Hugo has RSS support. Every new post updates the XML entries with the post title and a snippet of content. I can work with this.
+
 After researching different newsletter platforms, I chose [Mailchimp](https://mailchimp.com/) for my campaign. Their free plan allows up to 500 subscribers and 1,000 emails per month, more than enough for this cozy blog.
 Funny enough, when I searched for tutorials on integrating mail service with Hugo, I found almost nothing! Either it’s super easy or no one’s documented it. So, I’m here! Whoever needs some sort of guideline, my notes might help you.
 

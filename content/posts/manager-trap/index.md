@@ -10,7 +10,9 @@ Stepping into management is a bit like being point guard in a team where you've 
 ## What differs from IC to Manager?
 
 Let’s start with a confession: looking back at my childhood, I’ve always been drawn to the secondary characters, the ones thrust into leadership roles, not by choice, but by circumstance. Think Locke from *Final Fantasy VI* or Mat from *The Wheel of Time*. Ironically, life decided to play out the same trope for me.
+
 I started as a game developer, passionately crafting physics equations, debugging code, and dreaming up clever game logic. It was a blast! But fast-forward a few years, and the company decided my "communicative, organized, process-oriented" self was ripe for promotion. And just like that, I was a manager.
+
 The transition was rocky. As an IC, I had my groove; just me, my code, and my coffee. Lots of coffee. As a manager? Suddenly, the stakes were different. It wasn't just about me anymore; it was about the team. Success was now measured not in lines of code but in team spirit, strategy, and growth. At first, it felt like trading the thrill of scoring points for the quiet satisfaction of assisting my team to shine. And you know what? Over time, I realized I grew into it.
 
 ## Manager's life

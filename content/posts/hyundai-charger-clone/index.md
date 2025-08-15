@@ -6,6 +6,7 @@ tags: ["ev", "hack"]
 ---
 
 Two years into EV ownership and I have no complaint at all about the car. Every time I drive down the street, it's always nothing but a whisper under the hood. Hyundai really set me up nicely when I bought the car, home charger and all, making the whole charging experience easy.
+
 But here’s my one tiny gripe, that little NFC charger card. It lives in my wallet, rubs shoulders with ten other plastic cards, and has survived more toddler “testing” than I’d like to count. When my daughter decided it made a perfect teething toy, I knew it was time for drastic measures. Sure, Hyundai gave me a spare, but there's nothing bad having a backup of a backup right? 3-2-1 backup rule must be uphold.
 
 ## The Mystery Card
@@ -21,8 +22,10 @@ The next step is to read the data. I tried reading the card data with NFC Tools,
 ## Flipping the Zero
 
 Now, it's finally come to fun part, duplicating the bits. With Mifare Classic, it's quite straight forward, copy the data, store it, then write it to a new card. Unfortunately, that is not the case for this one. Add on that, that Mifare Ultralight have a lot of variations.
-Looking at the copied data, it only use 11 pages with 4 bytes per page, so technically any card having 20 pages rewritable space in the EEPROM would suffice. I took the gamble and bought several [`Mifare Ultralight EV1`](https://www.rfidcard.com/wp-content/uploads/2025/04/RFID-Card-NXP-MIFARE-Ultralight-EV1-datasheet-AZC-ULEV1-CR80.pdf) and [`Mifare Ultralight C`](https://www.rfidcard.com/wp-content/uploads/2025/05/RFID-Card-NXP-MIFARE-Ultralight-C-datasheet-AZC-ULC-CR80.pdf) cards which doesn't have high level of security features. Clearly there's not so much information stored in the card, so why bother buying high spec'ed one? Those cards supports `RC522` specs used by Hyundai card.
-First attempt? I copied everything. Every byte. Expecting miracle. The result? It failed (smile). I tried to do the same to both cards with no avail. Next, brite force combo attempt, trying to copy parts of the data with several combinations. Still, the charger refused to play along.
+Looking at the copied data, it only use 11 pages with 4 bytes per page, so technically any card having 20 pages rewritable space in the EEPROM would suffice. 
+
+I took the gamble and bought several [`Mifare Ultralight EV1`](https://www.rfidcard.com/wp-content/uploads/2025/04/RFID-Card-NXP-MIFARE-Ultralight-EV1-datasheet-AZC-ULEV1-CR80.pdf) and [`Mifare Ultralight C`](https://www.rfidcard.com/wp-content/uploads/2025/05/RFID-Card-NXP-MIFARE-Ultralight-C-datasheet-AZC-ULC-CR80.pdf) cards which doesn't have high level of security features. Clearly there's not so much information stored in the card, so why bother buying high spec'ed one? Those cards supports `RC522` specs used by Hyundai card.
+First attempt? I copied everything. Every byte. Expecting miracle. The result? It failed (smile). I tried to do the same to both cards with no avail. Next, brute force combo attempt, trying to copy parts of the data with several combinations. Still, the charger refused to play along.
 
 Time to dig deeper.
 
