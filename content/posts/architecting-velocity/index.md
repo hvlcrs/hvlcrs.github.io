@@ -1,5 +1,5 @@
 ---
-title: "Beyond Code: Architecting Development Velocity"
+title: "Beyond the Code"
 description: "Explore strategies and insights for architecting software teams to maximize development velocity. Learn how to overcome leadership challenges, avoid common management pitfalls, and boost productivity in tech organizations."
 date: 2025-08-15
 tags: ["management", "dev"]
