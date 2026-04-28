@@ -7,14 +7,14 @@ tags: ["ev"]
 
 ## EV adventure in Indonesia
 
-In a world where transportation is evolving faster than a speeding bullet, this vibrant region is making headlines as locals and expats alike jump on the EV bandwagon. With fuel prices rocketing sky-high and a growing love for our planet, switching to EVs is [gaining traction](https://jakartaglobe.id/tech/indonesia-sees-robust-growth-in-electric-vehicle-sales-amid-global-decline#:~:text=According%20to%20data%20from%20the%20Indonesian%20Automotive%20Industry,of%20a%20total%20car%20market%20of%20784%2C788%20units) !!
+While the global shift toward electric vehicles has seen varying levels of momentum, Indonesia is currently navigating a significant [transition](https://jakartaglobe.id/tech/indonesia-sees-robust-growth-in-electric-vehicle-sales-amid-global-decline#:~:text=According%20to%20data%20from%20the%20Indonesian%20Automotive%20Industry,of%20a%20total%20car%20market%20of%20784%2C788%20units). Driven by high fuel costs and a heavy influx of foreign investment, EVs are no longer a niche project—they are becoming a primary fixture in the local automotive market.
 
-Recently, Indonesia has been zipping ahead in the EV lane, supercharged by government policies that are wooing foreign investors. This electrifying shift is getting major love, with big-name EV champs from China (BYD, SAIC, GAC) and South Korea (Hyundai, LG Chem) setting up shop and assembling cars and batteries
+While Japanese manufacturers still hold the majority of the total car market, Chinese brands like BYD, SAIC, and GAC have broken into the top 10 for sales. Combined with Hyundai’s established presence and local battery production, the "electrified" road is becoming much more crowded.
 It's also complemented by the fact that Indonesia is home to some of Southeast Asia's growing EV charging networks, with over [2,000 state owned fast-charging stations across the country](https://web.pln.co.id/media/siaran-pers/2024/09/perbanyak-charging-station-ev-pln-gandeng-pt-utomo-charge-indonesia-dan-acme-corporation#:~:text=Hartanto%20merinci%2C%20hingga%20Agustus%20tahun%202024%20ketersediaan%20SPKLU%20sebanyak%202.015%20unit.%20Jumlah%20ini%20juga%20diikuti%20oleh%20peningkatan%20jumlah%20Stasiun%20Penukaran%20Baterai%20Kendaraan%20Listrik%20Umum%20(SPBKLU)%20yang%20mencapai%202.182%20tersebar%20di%20seluruh%20Indonesia.). These include locations at gas stations, airports like Soekarno Hatta International Airport (JKC), and dedicated EV-friendly roads in cities such as Jakarta.
 
 ## EV driving experience
 
-Living in bustling cities like Jakarta means dealing with traffic jams and pollution on the daily. But guess what? While gasoline engines can burn through your wallet in those never-ending traffic jams (we're talking more than an hour of barely moving), EVs offer an economical alternative.
+For urban residents in Jakarta or Surabaya, the move to EV is primarily a pragmatic financial decision rather than just an environmental one. In stagnant traffic, gasoline engines continue to consume fuel and generate heat. In an EV, the burn is negligible, making a two-hour crawl much less taxing on your wallet.
 
 For someone new to EV usage, experiencing these vehicles can be transformative. Unlike gasoline-powered cars, which often come with discernible engine noise and vibrations, electric vehicles offer a smooth, silent ride that feels almost too good to drive. The absence of traditional engine exhaust further enhances the zero-emission perception while driving.
 
@@ -22,16 +22,13 @@ On the negative side though, Indonesia's roads can be a bit of an adventure, esp
 
 ## Indonesia network: A Grid of Opportunity
 
-Since 2021, the government has been on a mission to build EV-friendly charging stations across urban areas, making it easier than ever to keep our electric vehicle (EV) powered up and ready to roll. Most public EV charging points are conveniently located at gas stations, where multiple EVs can charge simultaneously.
-With a growing number of dedicated electric vehicle friendly roads, we can experience even smoother driving with no waiting for charging ports. For instance, Jakarta has several fast-charging stations on highways rest areas that cater specifically to electric vehicles.
-
-In my experience, commuting and driving within Jakarta never been a problem.
-Shopping malls in urban areas have also jumped on the EV bandwagon, offering multiple levels of parking where cars can charge in about 30 minutes, depending on their capacity. It's the perfect spot for both short and long-term parking while you shop or relax.
-In rural areas, the charging stations are mostly installed at PLN offices. What’s mind-boggling is that during my visit to several smaller cities in Sumatra and Java, the central PLN office in each city already had fast charging stations installed.
+Since 2021, the government has been on a mission to build EV friendly charging stations across urban areas, making it easier than ever to keep our electric vehicle (EV) powered up and ready to roll. Most public EV charging points are conveniently located at gas stations, where multiple EVs can charge simultaneously.
+With a growing number of dedicated electric vehicle friendly roads, we can experience even smoother driving with no waiting for charging ports. For instance, Jakarta has several fast charging stations on highways rest areas that cater specifically to electric vehicles.
+In rural areas, the charging stations are mostly installed at PLN offices. What’s mind boggling is that during my visit to several smaller cities in Sumatra and Java, the central PLN office in each city already had fast charging stations installed.
 
 ### Ports problem avoided
 
-Unlike the USA, where different car companies use various charging ports, Indonesia sidestepped this issue right from the start.  [Government issued mandate](https://gatrik.esdm.go.id/assets/uploads/download_index/files/23211-200804-bahan-webinar-pm-esdm-13-2020-dirbinus-publikasi.pdf) in 2019 requires car manufacturers to use either CCS2 or Chademo ports, and the infrastructure is built to support this law.
+The charging network has matured since the initial [2019 mandates](https://gatrik.esdm.go.id/assets/uploads/download_index/files/23211-200804-bahan-webinar-pm-esdm-13-2020-dirbinus-publikasi.pdf). By standardizing on CCS2 and Chademo early on, Indonesia avoided the "port wars" seen in North America.
 
 That said, the ideal scenario is still to charge our vehicle at home. The Indonesian government has invested heavily in subsidizing new and existing EV users to support home charging. EV buyers can get a voucher from the state-owned electricity company (PLN) for [90% discount](https://web.pln.co.id/media/siaran-pers/2023/01/nge-charge-mobil-listrik-di-rumah-lebih-hemat-ada-promo-sambung-listrik-dari-pln) on new home EV charger installation.
 
@@ -55,32 +52,21 @@ Similar apps like [PlugShare](https://www.plugshare.com/) also have their own fa
 Indonesia offers a relatively affordable market for electric vehicles. While the prices can't quite match those in mainland China, the cheapest EVs in Indonesia are comparable to similar internal combustion engine (ICE) cars.
 
 Take Cherry's [Omoda EV](https://www.oto.com/mobil-baru/chery/omoda-e5/pure) for example—it can be bought for roughly IDR 400 million, the same price with Honda's popular ICE car, [HRV](https://www.oto.com/mobil-baru/honda/hr-v/1-5l-e-cvt).
-With government subsidies, the yearly tax for EVs is only a fraction of that for regular ICE cars. Using the same car as an example, the yearly tax for the Omoda EV is only about IDR 150k, while the HR-V can cost up to IDR 5 million—33 times more expensive!
+With government subsidies, the yearly tax for EVs is only a fraction of that for regular ICE cars. Using the same car as an example, the yearly tax for the Omoda EV is only about IDR 150k, while the HR-V can cost up to IDR 5 million, 33 times more expensive.
 ![tax](./ev-in-indonesia-3.webp)
 
-In Indonesia, there's an additional perk—cars are treated as luxury goods and taxed more heavily. The luxury tax can amount to 20-30% of the car's value, but for EVs, it's 0%. So, if you're looking outside the econobox category, EVs can be more economical than ICE cars in the same class.
+In Indonesia, there's an additional perk cars are treated as luxury goods and taxed more heavily. The luxury tax can amount to 20-30% of the car's value, but for EVs, it's 0%. So, if you're looking outside the econobox category, EVs can be more economical than ICE cars in the same class.
 
 ### Runing costs: Gasoline vs Electricity
 
-The long-term operational cost savings from using electricity instead of gasoline make EV ownership a cost-effective proposition in the long run.
-Again, with the car comparison, an econobox like Daihatsu's Ayla can run for 700 km on 36 liters of gasoline, giving you around 20 km per liter. With gasoline prices at IDR 12k per liter, it can add up. Now, take Wuling's Binguo with a 32 kWh battery that can run 300 km on a single charge. With current electricity fares at around IDR 2k per kWh, you can drive from Jakarta to Bogor (about 60 km) for the same cost as driving the Daihatsu from Central Jakarta to West Jakarta. It's THAT cheap!
-
-But wait, is it all rainbows? Nah. There's a hidden cost of running EV that people haven't caught, yet. It's the tire. EV generally is heavier than regular ICE cars because of the battery. That impacts heavily on the wheels, making it wear faster. To add salt to the wound, EV tires are also more expensive than regular tire.
+The operational savings are clear, electricity costs roughly IDR 2,000 per kWh, making a commute to Bogor significantly cheaper than a liter of Pertamax. However, there is a hidden cost, *tires*. EVs are substantially heavier due to battery weight, which leads to faster tire wear. Since many EVs require specialized high-load tires, this is a recurring expense that new owners often overlook.
 
 ## The resell value tango
 
-If everything that you've read until now is mostly positive, then I'll bring the biggest bad news. The resell value for EV in Indonesia is BAD.
-I can't say that it's abysmal, but the drop in value can be more felt compared to regular ICE vehicles, especially for EV that cost more than IDR 500 million.
-To give us a picture, new Ioniq 5 SLR sold for IDR 800 million in 2022. 2 years of usage brought it down to IDR 550 million, losing 30% for over 2 years of usage. Even though it's not apple to apple, Toyota's popular Innova line still held more than 60% of it's value after 5 years of usage.
+If you’re looking for a safe investment, the EV market still carries risk. The resale value for EVs in Indonesia remains more volatile than legendary value-holders like the Toyota.  
 
-Now, EVs might seem like they’re losing their shine compared to traditional cars in Indonesia. But hey remember that used ICE vehicles hold up better? It's a bit of a bummer fact but let’s focus on the positives.
-Looking at the statistics, there's still hope. Secondhand Daihatsu's Ayla from 2023 [costs IDR 145 million](https://www.mobil123.com/mobil-dijual/daihatsu/ayla/year-2023/indonesia), retaining 80% of its value over 2 years of usage. Second hand Binguo of the same year, [sold for IDR 260 million](https://www.mobil123.com/mobil-bekas-dijual/wuling/binguo-ev/indonesia?page_size=25), originally sold for IDR 320 million. Losing the same percentage of value for over 2 years of usage.
-With EV battery market become more mature, and the industry growing locally, hopefully it will become better overtime.
+We are seeing a lease return spike, where early adoption vehicles are hitting the used market in large volumes, driving prices down. A high end EV can still lose 30-40% of its value in three years. However, as battery health transparency improves and local manufacturing stabilizes, this "resale tango" is slowly becoming more predictable.
 
 ## So, what now?
 
-Am I enjoying driving an EV? Absolutely! I've had to tweak my driving habits a bit, but these past two years of EV ownership have been mostly pure joy. The cheap tax and operation cost has been a blessing in this economy.
-
-Would I buy another EV? You bet! But I think I'll wait until the battery innovations slow down a bit. It seems wiser to wait for the market to mature rather than chase the newest technology every year, which drives down the price of older EV models.
-Do I recommend others make the switch? Totally! The more, the merrier!
-Of course, take this advice with a pinch of salt.
+Two years into EV ownership, the benefits tax breaks, silent cabins, and minimal fuel costs outweigh the logistical hurdles. I wouldn’t trade the experience back for an ICE vehicle, but my advice is to buy for the long term. Chasing the latest battery tech every year is a losing game, find a model that fits your range needs today and run it until the savings have paid for the car itself.

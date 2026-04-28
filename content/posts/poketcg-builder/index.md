@@ -5,14 +5,14 @@ date: 2025-05-11
 tags: ["dev", "llm", "ai"]
 ---
 
-Pokémon has always been a huge part of my life! Every time a new game drops, you can bet it’s a day-one purchase for me. The Trading Card Game (TCG), however, has been a different story. Initially, I collected Pokémon cards just for fun—no competitive play, just pure joy. But my collection came to an abrupt halt when my parents banned me from collecting them (tragic, right?).
+Pokémon has always been a huge part of my life! Every time a new game drops, you can bet it’s a day-one purchase for me. The Trading Card Game (TCG), however, has been a different story. Initially, I collected Pokémon cards just for fun, no competitive play, just pure joy. But my collection came to an abrupt halt when my parents banned me from collecting them.
 
-Fast forward to a year ago, when I took my daughter to a Pokémon Festival—and that’s when the magic reignited! My little daughter asked for some cool sets and BOOM, I found myself diving back into the world of Pokémon TCG, both collecting and playing. What amazed me was how little had changed in the game itself. Sure, the competitive meta evolves due to power creep, and cards cycle out every year, but the core mechanics remain familiar.
+Fast forward to a year ago, when I took my daughter to a Pokémon Festival—and that’s when the magic reignited! My little daughter asked for some cool sets and I found myself diving back into the world of Pokémon TCG, both collecting and playing. What amazed me was how little had changed in the game itself. Sure, the competitive meta evolves due to power creep, and cards cycle out every year, but the core mechanics remain familiar.
 
 ## Application architecture
 
 Last weekend, I had some free time and thought, "How can I make deck building easier?" Abruptly, I turned to the internet. But all I found were meta deck explanations and prebuilt tactical deck guides, great for competitive players, but not much help if you want to build a deck around a non meta Pokémon.
-Sure, I could ask the community for advice, but that takes time. That’s when I had a lightbulb moment, why not use AI to solve this problem?
+Sure, I could ask the community for advice, but that takes time. Why not use AI to solve this problem?
 
 I envisioned a simple system:
 
@@ -28,7 +28,7 @@ So, I started with something like this:
 
 ## Scraping the cards
 
-The first step was scraping card data. Since I play using the regional Indonesia cards, big websites like [Serebii](https://serebii.net) weren’t an option—some card names differ. That left me with the official Pokémon site, which thankfully provides all the necessary details. With that sorted, I could begin extracting the data!
+The first step was scraping card data. Since I play using the regional Indonesia cards, big websites like [Serebii](https://serebii.net) weren’t an option, some card names differ. That left me with the official Pokémon site, which thankfully provides all the necessary details. With that sorted, I could begin extracting the data!
 ![card-details](./poketcg-builder-1.webp)
 For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It automatically chunks website sections, making it easier for AI tools to process the data, huge time saver! Once the data was scraped, the next step was storing it in a vector database.
 
@@ -84,7 +84,7 @@ Creating these collections programmatically was straightforward:
 
 After the code executed, the initiated collections can be seen from Ziliz's dashboard
 ![ziliz-collections](./poketcg-builder-2.webp)
-Each collection has auto-indexing (because, let’s be honest, I’m lazy 😆), and I use the `COSINE` metric for data relativity. The key takeaway here is that the vector dimension must match the embedding system. If I ever switch to OpenAI, I’ll need to update the schema accordingly.
+Each collection has auto-indexing (because, let’s be honest, I’m lazy 😆), and I use the `COSINE` metric for data relativity. The key takeaway here is that the vector dimension must match the embedding system. If I ever switch to other cloud models, I’ll need to update the schema accordingly.
 Embedding the data using Ollama is ridiculously simple, it’s just one line of code:
 
 ```python
@@ -162,6 +162,7 @@ To check if everything is working, simply run:
 
 Once the inspector tool is running, you can access it at `http://localhost:6274/#tools`
 ![mcp-inspector](./poketcg-builder-3.webp)
+
 Using this tool, we can test the MCP server tools and prompts. Just make sure that the transport type is set to SSE and that it points to the correct URL.
 
 ## Setting up the UI
@@ -205,4 +206,3 @@ With everything set up, we can finally start building our Pokémon TCG deck!
 ![openweb-ui-query](./poketcg-builder-7.webp)
 
 For now, the results feel a bit sketchy, but tweaking the parameters should help refine things. Interestingly, running the prompt directly as a RAG application instead of through MCP yields better results with the current setup, something that still puzzles me.
-That’s my homework for now! The next step? Deploying this in the cloud—but that’s a project for another weekend. 😆

@@ -5,15 +5,15 @@ date: 2025-05-20
 tags: ["blog", "dev"]
 ---
 
-When I rekindled my blog last year, my main focus was clear, keep it simple and concentrate on writing. I explored several platforms like Medium and dev.to, but ultimately landed on the GitHub + Hugo combo for the beauty of content ownership.
-Fast forward a few months, and after chatting with friends, I realized one big issue, they had a hard time knowing when new posts were live. While I haven’t done much in terms of crossposting to places like LinkedIn or HackerNews, I wanted to make sure my readers stayed updated. That’s when I started hunting for a newsletter system.
+When I revisited my blog last year, my priority was ownership. I chose the GitHub + Hugo stack specifically to keep my content in markdown and version controlled.
+
+However, static sites have a classic state problem like how do you manage a subscriber list without a database? After realizing readers were missing new posts because they weren't checking RSS feeds manually, I decided to bridge the gap using an automated newsletter system.
 
 ## Hugo + Mailchimp = Newsletter Match
 
-Since Hugo generates static pages (which is great for speed and simplicity!), I didn’t want to complicate things with a database for tracking users. But, Hugo has RSS support. Every new post updates the XML entries with the post title and a snippet of content. I can work with this.
+Since Hugo generates an index.xml file by default, it already provides a machine-readable stream of new content. Instead of building a custom backend, I used Mailchimp’s RSS-to-Email feature. It polls the feed, detects new entries, and triggers an automated campaign.
 
-After researching different newsletter platforms, I chose [Mailchimp](https://mailchimp.com/) for my campaign. Their free plan allows up to 500 subscribers and 1,000 emails per month, more than enough for this cozy blog.
-Funny enough, when I searched for tutorials on integrating mail service with Hugo, I found almost nothing! Either it’s super easy or no one’s documented it. So, I’m here! Whoever needs some sort of guideline, my notes might help you.
+I went with [Mailchimp](https://mailchimp.com/) because its free tier is sufficient for a personal technical blog. Interestingly, there is very little documentation on this specific integration, so I’ve outlined the implementation steps below.
 
 ## Set Up Your Email Campaign
 
@@ -31,7 +31,7 @@ Inside Mailchimp, go to "Campaigns" and create a new campaign. Fill in the detai
 
 ## Add the Signup Form to Hugo
 
-Thankfully, Hugo allows [advanced customization](https://gohugo.io/hugo-modules/theme-components/) where we can override templates partially. Let’s create a new partial for our newsletter form:
+Thankfully, Hugo allows [advanced customization](https://gohugo.io/hugo-modules/theme-components/) where we can override templates partially.
 
 - Create a new directory `layout/partials`
 - Create a new file `newsletter.html`
@@ -41,11 +41,11 @@ If your browser block the hosted CSS, then just copy the CSS content to the part
 Since I wanted the newsletter form to appear in every blog post, I edited single.html:
 
 - Create a new directory: `layout/_default` (if it doesn’t exist)
-- Create a new file `single.html`
+- Create a new file `single.html` (in newer hugo version this will be `single._extend.html`)
 - Copy the contents of your theme’s `single.html` file into the new one
 ![dirstructure](./gohugo-newsletter-4.webp)
 
-Now, let’s add a global parameter in config to activate the newsletter feature
+To keep the implementation clean, I used Hugo’s params to toggle the newsletter on or off globally.
 
 ```toml
     [mailchimp]
@@ -65,4 +65,4 @@ Finally, let’s render the signup form in blog posts by adding this code inside
 ```
 
 I placed mine after related links, but you can put it anywhere you like. Once this is set up, the signup form will automatically appear as long as partial "newsletter.html" is called on the page.
-And that’s it, your blog now has a fully functional newsletter system. Hope this guide helps, and if you give it a try, let me know how it goes. Happy blogging!
+This setup should've maintain the static nature of the site while providing a dynamic way to retain readers. 

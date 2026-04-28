@@ -7,19 +7,15 @@ tags: ["llm", "ai"]
 
 ## ChatGPT, Copilot, Gemini... and LocalLLM
 
-With all the AI buzzing left and right, it's hard not to jump on the bandwagon. ChatGPT, Copilot, Gemini... so many choices out there! For the general masses, ChatGPT is more than enough to cover the needs.
+In the current AI landscape, cloud providers like ChatGPT, Claude or Gemini are the default for general tasks.
 
-Now for the tricky part. Sometimes, we need AI help to handle big documents, brainstorm with the right context, or code with a specialized AI model. Sure, you can copy-paste information as a prompt or use RAG to feed data to the LLM backend. But these easy ways come at a price—your prompt becomes part of the AI model's training data, which can be a BIG problem if it contains important information. This is where local LLMs come to the rescue.
+However, for engineers handling sensitive documents, internal system architectures, or proprietary codebases, the "cloud- irst" approach presents a significant data governance risk.
 
-## Enter the LocalLLM
-
-What is LocalLLM? It's basically a large language model running on your machine instead of the cloud.
-It offers benefits like offline capability and more security, though it may be slower and less accurate unless you have a powerful machine.
+When you prompt a cloud LLM, your data often becomes part of the training loop. To mitigate this without losing the productivity gains of AI, I’ve shifted to a Local LLM architecture for my private workflows.
 
 ## LocalLLM setup
 
-My favorite app to run this is [Msty](https://msty.app/).
-It supports running local models on a CPU (if you have enough memory) and offers GPU acceleration. There are other popular options like LMStudio or llama.cpp, which offer more flexibility, but I prefer a nice UI, and Msty provides just that.
+For local execution, I use [Msty](https://msty.app/). While tools like `llama.cpp` or `LMStudio` offer more granular control, Msty provides a robust UI and a built-in local server that simplifies integration with other tools.
 ![msty](./local-llm-vs-cloud-0.webp)
 
 My setup is quite simple, I installed one of the most popular model from HuggingFace, Meta's `LLama 3.1 8B` for general use.
@@ -29,9 +25,9 @@ Those three models alrady covers almost all of my use case.
 
 ## Use cases
 
-Aside from work, I often use my laptop to write blogs like this or do a bit of coding. My AI use cases also revolve around that. Brainstorming or doing general tasks is straightforward through the prompt UI.
+The most impactful part of a local setup is the Retrieval Augmented Generation (RAG) capability. By tokenizing local PDFs or technical books into a vector database, I can query my own "Knowledge Stack."
 
-One feature I find super useful for more contextual results is the knowledge stack. It consumes the document we provide through the RAG plugin, tokenizes the content, and stores it in a vector database. This way, I can ask the agent for information from manuals/books without needing to read or search for keywords. Trust me, it saves hours!!
+This transforms static documentation into an interactive agent. Instead of grepping through 500-page manuals for a specific circuit breaker pattern or API versioning rule, I can ask the local model for the exact context saving hours of manual search without ever uploading the data to a third party server.
 ![model](./local-llm-vs-cloud-2.webp)
 
 For code assistance, I use a VSCode extension called [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue). Even though it's rarely used, I find it quite helpful to analyze and review proprietary code without breaking any NDA since everything runs locally.
@@ -51,10 +47,4 @@ Just access the file settings from the Continue chat tab context menu.
 
 ### Step 3: Fine-tuning and tweaks
 
-Want to make some tweaks and adjustments? You can read all about the settings and configurations directly from the Continue [docs](https://docs.continue.dev/customize/model-providers/more/msty). Happy customizing!
-
-## Conclusion
-
-Both Local LLMs and cloud AI have their own strengths and weaknesses. The choice between the two depends on your specific needs and priorities. If local context, data privacy, and customization are important, go for local LLMs. However, for versatility, speed, and broad applicability, cloud options like ChatGPT are excellent choices.
-
-Ultimately, the best solution often lies in a hybrid approach, leveraging the strengths of both local LLMs and global models to meet diverse AI requirements effectively.
+Want to make some tweaks and adjustments? You can read all about the settings and configurations directly from the Continue [docs](https://docs.continue.dev/customize/model-providers/more/msty).
