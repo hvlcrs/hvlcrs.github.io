@@ -69,3 +69,9 @@ googleAnalytics = "G-FGK4KTMB0L"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[languages]
+  [languages.en]
+    locale = 'en-US'
+    label = 'English'
+    weight = 10
