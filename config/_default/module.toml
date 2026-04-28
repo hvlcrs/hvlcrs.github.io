@@ -3,4 +3,5 @@
   min = "0.150.0"
 
 [[imports]]
-path = "blowfish"
+disable = false
+path = "github.com/nunocoracao/blowfish/v2"
