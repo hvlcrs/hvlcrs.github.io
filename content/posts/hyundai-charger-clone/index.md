@@ -40,4 +40,4 @@ Notice the difference in between the two data? Each new card now boasts its own 
 ## Moment of Truth
 
 Now, it's just the time for testing!
-{{< video src="hyundai-charger-clone-4" >}}
+{{< video src="hyundai-charger-clone-4.webm" >}}
