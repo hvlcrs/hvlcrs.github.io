@@ -14,7 +14,7 @@ But here’s my one tiny gripe, that little NFC charger card. It lives in my wal
 Looking at the card, there were no clues. Just a blank NFC card with a barcode. So naturally, I had to figure out what type of NFC it was. My educated (read: hopeful) guess? A standard Mifare card.
 ![card](./hyundai-charger-clone-0.webp)
 
-I turned to my phone and installed [NFC Tools]((https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en)). It’s user friendly and best of all, free (because I’m a cheapskate). With the help of the app, I discovered that this elusive card is a `Mifare Ultralight`. That’s both good and bad, good because it’s common, and bad because encryption is now part of the party.
+I turned to my phone and installed [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en). It's user friendly and best of all, free (because I'm a cheapskate). With the help of the app, I discovered that this elusive card is a `Mifare Ultralight`. That's both good and bad, good because it's common, and bad because encryption is now part of the party.
 
 The next step is to read the data. I tried reading the card data with NFC Tools, but it taps out at Mifare Classic, so I leveled up to [MTools](https://play.google.com/store/apps/details?id=tk.toolkeys.mtools&hl=en-US). It's a paid application, but it's far cheaper than shilling the money for a dedicated NFC reader hardware or a `Flipper Zero`. A few seconds later and I got the byte dumps.
 ![carddata](./hyundai-charger-clone-1.webp)
