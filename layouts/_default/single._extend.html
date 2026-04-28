@@ -24,7 +24,7 @@
       {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
     </div>
 
-    {{ $authorsData := hugo.Data.authors }}
+    {{ $authorsData := .Site.Data.authors }}
     {{ $taxonomies := .Site.Taxonomies.authors }}
     {{ $baseURL := .Site.BaseURL }}
     {{ $taxonomyLink := 0 }}
@@ -102,7 +102,54 @@
             </strong>
           {{ end }}
         </div>
+
+        {{ if (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
+
+          {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+            {{ $showAuthor = 1 }}
+            {{ partial "author.html" . }}
+          {{ end }}
+
+          {{ range $author := .Page.Params.authors }}
+            {{ $authorData := index $authorsData $author }}
+            {{- if $authorData -}}
+              {{ range $taxonomyname, $taxonomy := $taxonomies }}
+                {{ if (eq $taxonomyname $author) }}
+                  {{ $taxonomyLink = delimit (slice $baseURL "authors/" $author "/") "" }}
+                {{ end }}
+              {{ end }}
+              {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+            {{- end -}}
+          {{ end }}
+
+          {{ if or $taxonomyLink $showAuthor }}
+          <div class="mb-10"></div>
+          {{ end }}
+
+        {{ end }}
+
+        {{ partial "series/series-closed.html" . }}
+        {{ partial "sharing-links.html" . }}
+        {{ partial "related.html" . }}  
+
+        {{ if .Site.Params.mailchimp.newsletter | default false }}
+            {{ partial "mailchimp.html" . }}
+        {{ end }}
       </div>
+
+      {{ $translations := .AllTranslations }}
+      {{ with .File }}
+        {{ $path := .Path }}
+        {{range $translations}}
+          {{ $lang := print "."  .Lang  ".md" }}
+          {{ $path = replace $path $lang ".md" }}
+        {{end}}
+      <script>
+        var oid = "views_{{ $path }}"
+        var oid_likes = "likes_{{ $path }}"
+      </script>
+      {{ $jsPage := resources.Get "js/page.js" }}
+      {{ end }}
 
   </section>
 
