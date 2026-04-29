@@ -74,6 +74,9 @@
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}
+        {{ if .Site.Params.mailchimp.newsletter | default false }}
+            {{ partial "mailchimp.html" . }}
+        {{ end }}
       </div>
     </section>
 

@@ -3,7 +3,6 @@ title: "Beyond the Code"
 description: "Explore strategies and insights for architecting software teams to maximize development velocity. Learn how to overcome leadership challenges, avoid common management pitfalls, and boost productivity in tech organizations."
 date: 2025-08-15
 tags: ["management", "dev"]
-hidemeta: true  
 ---
 
 When things fall apart in software projects, the finger pointing usually starts with the code. "It's a technical debt problem." "The architecture is brittle." "We need to refactor." Sure, these are all true, but zooming in only on the technical aspects misses a crucial part of the equation.
