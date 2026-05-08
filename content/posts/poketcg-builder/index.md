@@ -9,7 +9,7 @@ Pokémon has always been a huge part of my life! Every time a new game drops, yo
 
 Fast forward to a year ago, when I took my daughter to a Pokémon Festival—and that’s when the magic reignited! My little daughter asked for some cool sets and I found myself diving back into the world of Pokémon TCG, both collecting and playing. What amazed me was how little had changed in the game itself. Sure, the competitive meta evolves due to power creep, and cards cycle out every year, but the core mechanics remain familiar.
 
-## Application architecture
+## Application Architecture
 
 Last weekend, I had some free time and thought, "How can I make deck building easier?" Abruptly, I turned to the internet. But all I found were meta deck explanations and prebuilt tactical deck guides, great for competitive players, but not much help if you want to build a deck around a non meta Pokémon.
 Sure, I could ask the community for advice, but that takes time. Why not use AI to solve this problem?
@@ -26,13 +26,13 @@ So, I started with something like this:
 
 **TLDR; If you don't want to read the rest of the article and simply want to look at the code, it can be accessed [at the repository](https://github.com/hvlcrs/pokebuilder). Else, let's go on!!**
 
-## Scraping the cards
+## Scraping the Cards
 
 The first step was scraping card data. Since I play using the regional Indonesia cards, big websites like [Serebii](https://serebii.net) weren’t an option, some card names differ. That left me with the official Pokémon site, which thankfully provides all the necessary details. With that sorted, I could begin extracting the data!
 ![card-details](./poketcg-builder-1.webp)
 For this task, I chose [crawl4ai](https://github.com/unclecode/crawl4ai). It automatically chunks website sections, making it easier for AI tools to process the data, huge time saver! Once the data was scraped, the next step was storing it in a vector database.
 
-## Embedding and storing the data
+## Embedding and Storing the Data
 
 Since I wanted this tool to be accessible online, I initially leaned toward managed services. Carrying my laptop to casual TCG battles? Not cool.
 My database of choice is `Milvus`. There are other capable vector databases like chroma, qdrant, or even supabase. However, Ziliz, the managed Milvus service, is the most generous with it's free offerings. That is the deciding factor.
@@ -91,7 +91,7 @@ Embedding the data using Ollama is ridiculously simple, it’s just one line of 
     ollama.embed(model="nomic-embed-text", input=text).embeddings[0]
 ```
 
-## Bringing the MCP server to life
+## Bringing the MCP Server to Life
 
 With everything now standardized, at least in the Python world, spinning up an MCP server is super fast. Thanks to libraries like `FastMCP`, it takes just a few lines of code to get things up and running:
 
@@ -200,7 +200,7 @@ Now, let’s connect the UI to our MCP server:
 - Input the mcpo running proxy URL as the target, by default it is `http://localhost:8000/openapi.json`
 ![openweb-ui-mcp](./poketcg-builder-6.webp)
 
-## Time to build our deck
+## Time to Build Our Deck
 
 With everything set up, we can finally start building our Pokémon TCG deck!
 ![openweb-ui-query](./poketcg-builder-7.webp)

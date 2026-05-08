@@ -9,7 +9,7 @@ Stepping into management is like moving from a high scoring shooting guard to a 
 
 My transition wasn't a calculated career move; it was the classic "reluctant leader" trope. Much like Locke from Final Fantasy VI or Mat Cauthon from The Wheel of Time, I was an engineer who loved the physics of the game—debugging code and crafting logic, who was eventually tapped for leadership because I was "organized and communicative."
 
-## What differs from IC to Manager?
+## What Differs from IC to Manager?
 
 I started as a game developer, passionately crafting physics equations, debugging code, and dreaming up clever game logic. It was a blast! But fast forward a few years, and the company decided I was ripe for promotion. And just like that, I was a manager.
 
@@ -19,7 +19,7 @@ As an IC, I had my groove; just me, my code, and my coffee. Lots of coffee. As a
 In a startup environment, the transition is particularly jarring. You are no longer responsible for a single stream of work, you are managing a high concurrency system with multiple hats. Constant juggling between horizontal and vertical communication, deciding which fires to put out and which can smolder for a bit, guiding team members in their growth and career paths, handling conflicts, or championing the team’s needs and achievements to leadership. You're expected to juggle like a seasoned circus performer.
 A manager's worth is measured when they can bring impact to the company. Mastering soft skills like empathy, conflict resolution, and strategic thinking is a must for a manager to grow and make sure they are being seen.
 
-## Coding or no coding, that is the question
+## Coding or Co Coding, That is the Question
 
 Like I said before, I miss my coding days. Nothing beats the satisfaction of building something from scratch. The reality being a manager though, your time would be spent more on the people instead of the code itself. Meetings and 1 on 1 are the constants, instead of the variables.
 In most cases, growing as a manager means broader scope, more responsibility, and more influence; eventually reaching executives' position. This is where the trap lies. When you step on the managerial ladder, your focus will be on business impact, team building, and growing influence. While on the other hand, as engineering manager, you are expected to excel at engineering!! At first, it's still manageable, but slowly when the company grows, or you grow, it became harder and harder to find the time to code again.
@@ -30,6 +30,6 @@ Then came mistake number two, I code again as a *manager*. You know where it goe
 
 Lesson learned, I’m not here to score the three pointers, I’m here to assist. I need to be like Steve Nash. The top priority is ~passing the ball~ managerial tasks. Neglecting that means failure, not only for me but for the team as well. I don't need to *always* code. The sweet spot? Tackling occasional technical challenges that excite me performance tuning, bootstrapping new features, or fixing pesky bugs. And for staying sharp? Side projects are my sanctuary. I finally found the fun again.
 
-## Any regrets so far?
+## Any Regrets so Far?
 
 Do I regret becoming a manager? Honestly? I don't know. Sure, there have been moments of sleepless nights over decisions. But every challenge has shaped me to be a better person of myself. The learning curves, the laughter shared over coffee breaks, and the pride in watching my team flourish far outweigh any drawbacks. If I were offered a chance to rewind time, would I choose this path again? Probably. As a favorite character of mine once said, *"What’s life like if you don’t take a chance now and then?"*.
