@@ -22,7 +22,45 @@ I envisioned a simple system:
 - An MCP server to expose this data to AI agents
 
 So, I started with something like this:
-![architecture](./poketcg-builder-0.webp)
+{{< mermaid >}}
+flowchart TB
+    %% Title
+    %% Simple AI Pokémon Deck Builder Application Flow
+
+    %% Subgraph 1: Data Acquisition and Preparation
+    subgraph DA["DATA ACQUISITION AND PREPARATION"]
+        A([Start Data Scraping]) --> B[Scrape Pokémon Card Data]
+        B --> C[Chunk Data]
+        C --> D[Embed Data]
+    end
+
+    %% Subgraph 2: Data Storage
+    subgraph DS["DATA STORAGE"]
+        E[Insert Embeddings to Milvus]
+    end
+
+    %% Subgraph 3: Data Retrieval
+    subgraph DR["DATA RETRIEVAL"]
+        F[Build RAG System] --> G[Retrieve Relevant Data]
+    end
+
+    %% Subgraph 4: Data Exposure
+    subgraph DE["DATA EXPOSURE"]
+        H[Build MCP Server] --> I[Expose Data via MCP Server]
+    end
+
+    %% Subgraph 5: AI Agent Interaction
+    subgraph AI["AI AGENT INTERACTION"]
+        J([AI Agent Calls MCP Server]) --> K[Use Relevant Data as Context]
+    end
+
+    %% Inter-subgraph Connections
+    D --> E
+    E --> F
+    G --> H
+    I --> J
+
+{{< /mermaid >}}
 
 **TLDR; If you don't want to read the rest of the article and simply want to look at the code, it can be accessed [at the repository](https://github.com/hvlcrs/pokebuilder). Else, let's go on!!**
 
