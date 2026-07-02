@@ -1,8 +1,8 @@
 ---
 title: "Revisiting Backstage as Developer Portal"
-description: "A reassessment of Backstage, how it transitioned from a simple use cases into a central development nexus."
+description: "Revisiting Backstage as a developer portal, how it evolved from a basic service catalog into a central development hub with AI agent integration, MCP actions, and self service scaffolding for modern engineering teams."
 date: 2026-04-29
-tags: ["dev", "ai"]
+tags: ["dev", "ai", "platform-engineering"]
 ---
 
 My first interaction with Backstage took place about three to four years ago. At that time, the feature was quite basic, basically a lightweight system for service cataloging, hosting tech docs, and providing templating engine. I admit, I didn't really utilize it properly back then. Initially, my team leveraged it solely to list our microservices, a necessary step given we managed customer data distributed across numerous clusters. We even built a custom plugin to visualize AWS billing based on customer metadata, but beyond that, our usage was limited.

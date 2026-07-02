@@ -1,8 +1,8 @@
 ---
 title: "Indonesia's Exciting EV Scene"
-description: "Dive into Indonesia’s booming EV market. Learn about innovative tech, emerging trends, and what’s fueling the country's electric vehicle revolution."
+description: "A deep dive into Indonesia's EV market, charging network coverage, cost comparison vs ICE cars, tax subsidies, and resale value trends. Real ownership experience driving an EV from Jakarta to Yogyakarta."
 date: 2025-01-20
-tags: ["ev"]
+tags: ["ev", "cars"]
 ---
 
 ## EV adventure in Indonesia

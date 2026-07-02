@@ -1,6 +1,6 @@
 ---
 title: "The Trap of Being a Manager"
-description: "Delve into the challenges of leadership and the hidden pitfalls of management. Gain insights and practical tips to avoid common managerial traps and thrive."
+description: "The hidden pitfalls of transitioning from IC engineer to engineering manager. Personal reflections on losing coding skills, avoiding burnout, and redefining success as a leader."
 date: 2025-02-18
 tags: ["management", "dev"]
 ---

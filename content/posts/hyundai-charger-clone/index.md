@@ -1,8 +1,8 @@
 ---
 title: "Decoding Hyundai’s Wall Charger Card"
-description: "Discover a step by step guide to replicating Hyundai’s wall charger card in a few simple steps."
+description: "How to clone a Hyundai EV wall charger NFC card using only an Android phone. A technical walkthrough of Mifare Ultralight card dumping, hex analysis, and writing duplicate keys, no Flipper Zero needed."
 date: 2025-06-27
-tags: ["ev", "hack"]
+tags: ["ev", "hack", "nfc", "hardware"]
 ---
 
 Two years into EV ownership and I have no complaint at all about the car. Hyundai really set me up nicely when I bought the car, home charger and all, making the whole charging experience easy.
