@@ -1,5 +1,5 @@
 ---
-title: "Local and Cloud LLMs"
+title: "Local and Cloud LLMs Hybrid Setup"
 description: "My personal hybrid local and cloud LLM setup — using omlx for fast local inference, hindsight and omlx for memory management, mcporter for MCP-to-CLI conversion, and opencode as the terminal AI client."
 date: 2026-07-02
 tags: ["llm", "ai", "opencode", "omlx"]

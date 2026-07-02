@@ -1,5 +1,5 @@
 ---
-title: "Local vs Cloud LLMs"
+title: "Local vs Cloud LLMs Use Cases"
 description: "Compare local vs cloud-based LLMs and RAG for private code workflows. Setup guide using Msty, Ollama, and Continue in VSCode, keep proprietary data off third party servers."
 date: 2024-11-28
 tags: ["llm", "ai"]
